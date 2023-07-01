@@ -26,7 +26,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Deploy on gh-pages
 1. next.config.js -> add  output: 'export'
 2. settings -> pages -> GitHub Actions -> NEXT.JS Configure
-
+3. nextjs.yml (branches: ["main"])
 
 ---
 ### 📚 References
@@ -54,17 +54,15 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ### 💻 Source Code
 
-- 🔗 [Chapter 1 - Introduction & Setup]
-- 🔗 [Chapter 2 - Pages & Layout]
-- 🔗 [Chapter 3 - Data Fetching, Dynamic Routes & Metadata]
-- 🔗 [Chapter 4 - SSG, SSR, & ISR]
-- 🔗 [Chapter 5 - Client Components & Small Project]
-- 🔗 [Chapter 6 - Blog Website Project]
-- 🔗 [Chapter 7 - Route Handlers for API Routes]
-- 🔗 [Chapter 8 - Build a REST API]
-- 🔗 [Chapter 9 - Middleware]
-- 🔗 [Chapter 10 - Background & On-Demand Revalidation]
-- 🔗 [Chapter 11 - Mutating Data]
-- 🔗 [Chapter 12 - Build and Deploy a Blog with Remote MDX Content]
+- 🔗 [main - Introduction & Setup]
+- 🔗 [next01 - Pages & Layout]
+- 🔗 [next02 - Data Fetching, Dynamic Routes & Metadata]
+- 🔗 [next03 - SSG, SSR, & ISR]
+- 🔗 [next04 - Client Components & Small Project]
+- 🔗 [next05 - Route Handlers for API Routes]
+- 🔗 [next06 - Build a REST API]
+- 🔗 [next07 - Middleware]
+- 🔗 [next08 - Background & On-Demand Revalidation]
+- 🔗 [next09 - Mutating Data]
 
 
