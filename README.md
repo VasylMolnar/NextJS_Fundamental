@@ -24,6 +24,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ---
 ## Deploy on gh-pages
+1. next.config.js -> add  output: 'export'
+2. settings -> pages -> GitHub Actions -> NEXT.JS Configure
 
 
 ---
