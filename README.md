@@ -1,9 +1,9 @@
 # "Next.js Data Fetching, Dynamic Routes & Metadata"
 
-1. Routing Fundamentals: https://nextjs.org/docs/app/building-your-application/routing
+1. Data Fetching: https://nextjs.org/docs/app/building-your-application/data-fetching
 
-2. Next.js API route support:
-   https://nextjs.org/docs/app/building-your-application/routing/router-handlers
+2. Dynamic Routes:
+   https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes
 
 3. Metadata: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
 
