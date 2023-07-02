@@ -1,11 +1,15 @@
-# "Next.js Data Fetching, Dynamic Routes & Metadata"
+# "Next.js SSG, SSR, & ISR"
 
 1. Data Fetching: https://nextjs.org/docs/app/building-your-application/data-fetching
 
-2. Dynamic Routes:
-   https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes
+2. SSG:
+   https://nextjs.org/docs/pages/building-your-application/rendering/server-side-rendering
 
-3. Metadata: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
+3. SSR:
+   https://nextjs.org/docs/pages/building-your-application/rendering/static-site-generation
+
+4. ISR:
+   https://nextjs.org/docs/pages/building-your-application/rendering/incremental-static-regeneration
 
 ## Getting Started
 
