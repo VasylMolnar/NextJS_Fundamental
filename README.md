@@ -1,4 +1,11 @@
-# "Next.js"
+# "Next.js Pages & Layout"
+
+1. Routing Fundamentals: https://nextjs.org/docs/app/building-your-application/routing
+
+2. Next.js API route support:
+   https://nextjs.org/docs/app/building-your-application/routing/router-handlers
+
+3. Metadata: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
 
 ## Getting Started
 
@@ -23,20 +30,26 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ```
 
 ---
+
 ## Deploy on gh-pages
-1. next.config.js -> add  output: 'export'
+
+1. next.config.js -> add output: 'export'
 2. settings -> pages -> GitHub Actions -> NEXT.JS Configure
 
-
 ---
+
 ### 📚 References
+
 - 🔗 [Next.js Official Site](https://nextjs.org/)
 - 🔗 [Next.js 13 Docs](https://nextjs.org/docs)
-- 🔗 [Cloudflare: How does a CDN work?](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
+- 🔗
+  [Cloudflare: How does a CDN work?](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
 - 🔗 [What is MDX?](https://mdxjs.com/docs/what-is-mdx/)
-- 🔗 [next-mdx-remote RSC Docs](https://github.com/hashicorp/next-mdx-remote#react-server-components-rsc--nextjs-app-directory-support)
+- 🔗
+  [next-mdx-remote RSC Docs](https://github.com/hashicorp/next-mdx-remote#react-server-components-rsc--nextjs-app-directory-support)
 
 ### 🚀 Early Project Dependencies
+
 - 🔗 [react-icons](https://www.npmjs.com/package/react-icons)
 - 🔗 [gray-matter](https://www.npmjs.com/package/gray-matter)
 - 🔗 [remark](https://www.npmjs.com/package/remark)
@@ -64,5 +77,3 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - 🔗 [next07 - Middleware]
 - 🔗 [next08 - Background & On-Demand Revalidation]
 - 🔗 [next09 - Mutating Data]
-
-
