@@ -1,9 +1,14 @@
 import getUserById from '@/lib/getUserById';
 import { User } from '@/types/user';
 import { Metadata } from 'next';
-import { Params } from 'next/dist/shared/lib/router/utils/route-matcher';
 import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
+
+type Params = {
+  params: {
+    id: string;
+  };
+};
 
 //or create heat.tsx file
 // export const metadata = {

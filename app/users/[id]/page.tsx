@@ -5,7 +5,8 @@ import { Suspense } from 'react';
 import UserPosts from './components/UserPosts';
 import { User } from '@/types/user';
 import getUserPosts from '@/lib/getUserPosts';
-import { useRouter } from 'next/navigation';
+import { notFound, useRouter } from 'next/navigation';
+import getAllUsers from '@/lib/getAllUsers';
 
 type Params = {
   params: {
@@ -25,6 +26,10 @@ const CurrentUser = async ({ params: { id } }: Params) => {
   // If not progressively rendering with Suspense, use Promise.all
   //const [user, userPosts] = await Promise.all([userData, userPostsData])
 
+  const user = await userData;
+
+  if (!user.name) notFound();
+
   return (
     <section style={{ padding: '50px' }}>
       <h1 style={{ marginBottom: '50px', color: 'red' }}>
@@ -43,5 +48,15 @@ const CurrentUser = async ({ params: { id } }: Params) => {
     </section>
   );
 };
+
+export async function generateStaticParams() {
+  //for SSG
+  const usersData: Promise<User[]> = getAllUsers();
+  const users = await usersData;
+
+  return users.map(user => ({
+    userId: user.id.toString(),
+  }));
+}
 
 export default CurrentUser;
