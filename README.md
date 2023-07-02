@@ -1,4 +1,4 @@
-# "Next.js Pages & Layout"
+# "Next.js Data Fetching, Dynamic Routes & Metadata"
 
 1. Routing Fundamentals: https://nextjs.org/docs/app/building-your-application/routing
 
