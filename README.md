@@ -1,6 +1,9 @@
-# "Next.js Client Components & Small Project"
+# "Next.js Route Handlers for API Routes"
 
-1. Client Components: https://nextjs.org/docs/getting-started/react-essentials
+1. Route Handlers:
+   https://nextjs.org/docs/app/building-your-application/routing/router-handlers
+
+2. API Routes: https://nextjs.org/docs/pages/building-your-application/routing/api-routes
 
 ## Getting Started
 

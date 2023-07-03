@@ -2,7 +2,7 @@
 import { NextResponse } from 'next/server';
 
 export async function GET(req: Request) {
-  console.log(req);
+  // console.log(req);
   //return new Response('Hello, Next.js!');
   return NextResponse.json({ name: 'HELLO WORLD' });
 }
