@@ -11,12 +11,14 @@
 4. ISR:
    https://nextjs.org/docs/pages/building-your-application/rendering/incremental-static-regeneration
 
+5. generateStaticParams:
+   https://nextjs.org/docs/app/building-your-application/data-fetching
+
 # "test SSG, SSR, & ISR"
 
 1. next.config.js DELETE // output: 'export'
 2. npm run build -> npm start (NOT NPM RUN DEV)
 3. in Google -> terminal -> network
-
 4. getUserPost
 5. user -> [id] -> page -> generateStaticParams
 
