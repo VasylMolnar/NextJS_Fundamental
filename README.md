@@ -1,9 +1,6 @@
-# "Next.js Build a REST API"
+# "Next.js Middleware"
 
-1. Route Handlers:
-   https://nextjs.org/docs/app/building-your-application/routing/router-handlers
-
-2. API Routes: https://nextjs.org/docs/pages/building-your-application/routing/api-routes
+1. Middleware: https://nextjs.org/docs/app/building-your-application/routing/middleware
 
 ## Getting Started
 
