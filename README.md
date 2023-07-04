@@ -62,7 +62,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - 🔗 [next05 - Route Handlers for API Routes]
 - 🔗 [next06 - Build a REST API]
 - 🔗 [next07 - Middleware]
-- 🔗 [next08 - Background & On-Demand Revalidation]
-- 🔗 [next09 - Mutating Data]
+- 🔗 [next08 - Revalidation and Mutating Data]
 
 
