@@ -5,8 +5,7 @@ export default function Home() {
   return (
     <main className={style.main}>
       <h1 style={{ marginBottom: '50px', color: 'red' }}>Home Page</h1>
-
-      <Link href="/feedback">Add Feedback</Link>
+      <h1 style={{ marginBottom: '50px', color: 'green' }}>REST API</h1>
     </main>
   );
 }

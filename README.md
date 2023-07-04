@@ -1,4 +1,4 @@
-# "Next.js Route Handlers for API Routes"
+# "Next.js Build a REST API"
 
 1. Route Handlers:
    https://nextjs.org/docs/app/building-your-application/routing/router-handlers

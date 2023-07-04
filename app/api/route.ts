@@ -4,5 +4,6 @@ import { NextResponse } from 'next/server';
 export async function GET(req: Request) {
   // console.log(req);
   //return new Response('Hello, Next.js!');
-  return NextResponse.json({ name: 'HELLO WORLD' });
+  // return NextResponse.json({ name: 'HELLO WORLD' });
+  return new Response('Hello, Next.js!');
 }
