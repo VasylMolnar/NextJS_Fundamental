@@ -1,11 +1,13 @@
-import Link from 'next/link';
-import style from './page.module.css';
+import TodoList from './components/TodoList';
+import AddTodo from './components/AddTodo';
+
+export const revalidate = 0;
 
 export default function Home() {
   return (
-    <main className={style.main}>
-      <h1 style={{ marginBottom: '50px', color: 'red' }}>Home Page</h1>
-      <h1 style={{ marginBottom: '50px', color: 'green' }}>REST API</h1>
-    </main>
+    <>
+      <AddTodo />
+      <TodoList />
+    </>
   );
 }
